@@ -1,5 +1,3 @@
-# Best practices for writing Dockerfiles -TH
-
 # Circular buffer
 
 1. Data structure ? (Internal)
