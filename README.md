@@ -16,9 +16,9 @@
 * write pointer = 0
 
 4. List of test cases
-* TC01 => 1 commit : set default of isEmpt(), isFull(), writeData(string):void, readData(): string
-* TC02 => 1 commit
-* TC03 => 1 commit
+* TC01 => isEmpt() 
+* TC02 => isFull() 
+* TC03 => writeData(string):void, readData(): string
 * TC04 => 1 commit
 * TC05 => 1 commit
 
