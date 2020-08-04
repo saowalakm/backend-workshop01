@@ -16,9 +16,10 @@
 * write pointer = 0
 
 4. List of test cases
-* TC01 => isEmpt() 
-* TC02 => isFull() 
-* TC03 => writeData(string):void, readData(): string
-* TC04 => 1 commit
-* TC05 => 1 commit
+* TC01 => isEmpt(), isFull()
+* TC02 => writeData(string):void
+* TC03 => readData(): string
+
+5. Refactor
+* Modify code format to read easier
 
