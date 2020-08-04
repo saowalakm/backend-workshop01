@@ -5,12 +5,20 @@ public class CircularBuffer {
     private int readPointer;
     private int writePointer;
 
+    // Default constructure
     public CircularBuffer(){
-        this.buffer = new String[10];
+        //this.buffer = new String[10];
+        this(10);
+    }
+
+    // Overload constructure
+    public CircularBuffer(int size){
+        this.bufferSize = size;
+        this.buffer = new String[bufferSize];
     }
 
     public boolean isEmpty() {
-        return bufferSize == 10;
+        return readPointer == writePointer;
     }
 
     public void writeData(String input) {
